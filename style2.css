@@ -1,0 +1,105 @@
+body {
+    background-image: url("images/background.jpg");
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+
+    color: rgb(0, 0, 0);
+}
+body {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: pageLoad 0.8s ease-out forwards;
+}
+@keyframes pageLoad {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.premium-text{
+    color: #ffffff;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+#reviews-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.review {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#review-form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff416c;
+    color: rgb(255, 51, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+button:hover {
+    background: #ff4b2b;
+}
+.btn {
+    background : #ff6600;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+h1 {
+    color: #ffffff;
+    border-radius: 30px;
+}
+nav a {
+    color: #ff4b2b;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}

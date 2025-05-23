@@ -1,0 +1,225 @@
+body {
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-color: rgb(37, 17, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 10px;
+
+}
+body {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: pageLoad 0.8s ease-out forwards;
+}
+@keyframes pageLoad {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.premium-text{
+    color: #ffffff;
+}
+
+header {
+    background-image: url("images/background.jpg");
+    background-color: rgb(255, 255, 255) 
+    
+      
+}
+
+.hero {
+   background: none;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.btn {
+    background : #ff6600;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+}
+
+product-grid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(255, 74, 3);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+    border-radius: 50px;
+}
+
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    color: cyan;
+    text-shadow: 0 0 10px cyan;
+  
+}
+.about{
+    color: white;
+    padding: 20px;
+}
+.iphone-image {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.samsung-image {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.products-title {
+    color: white;
+}
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 50px 0;
+}
+
+.contact-section h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    max-width: 400px;
+}
+
+h1 {
+    color: #333;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.cart-btn, .clear-cart, .back, .view-cart {
+    display: block;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+}
+
+.cart-btn:hover, .clear-cart:hover, .back:hover, .view-cart:hover {
+    background-color: #e65c00;
+}
+
+.footer {
+    color: white;
+    border-radius: 50px;
+    height: 10px;
+}
+#promo-slider {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Fade Animation */
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}

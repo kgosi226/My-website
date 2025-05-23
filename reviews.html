@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews - Mobile X</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Customer Reviews</h1>
+        <nav>
+            <div class="logo">Mobile X</div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="products.html">Shop</a>
+                <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+                <div class="container"
+                <h1></h1>
+            </nav>
+            
+    </header>
+
+    <main>
+        <!-- Display Reviews -->
+        <section id="reviews">
+            <h2>What Our Customers Say!</h2>
+            <div id="reviews-container">
+                <!-- Reviews will be added here dynamically -->
+            </div>
+        </section>
+
+        <!-- Review Form -->
+        <section id="review-form">
+            <h2>Leave a Review</h2>
+            <form id="add-review-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <textarea id="message" placeholder="Write your review here..." required></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
